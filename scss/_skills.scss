@@ -1,0 +1,37 @@
+.skills {
+  padding: 3rem;
+  background-color: rgba(158, 147, 147, 0.412);
+
+  &__container {
+    display: grid;
+    grid-gap: 3rem;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1500px;
+
+    @media screen and (min-width: 460px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    @media screen and (min-width: 1200px) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  &__skill {
+    width: 6.5rem;
+    height: 6.5rem;
+    @media screen and (min-width: 460px) {
+      width: 7.5rem;
+      height: 7.5rem;
+    }
+    @media screen and (min-width: 750px) {
+      width: 9rem;
+      height: 9rem;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 12rem;
+      height: 12rem;
+    }
+  }
+}
