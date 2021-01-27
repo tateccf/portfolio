@@ -13,6 +13,12 @@ h6 {
 
 h1 {
   font-size: 2.5rem;
+  @media screen and (min-width: 550px) {
+    font-size: 3.2rem;
+  }
+  @media screen and (min-width: 850px) {
+    font-size: 4.2rem;
+  }
 }
 
 h2 {
@@ -23,11 +29,35 @@ p {
   font-family: var(--font-secondary);
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 .main-heading__name {
+  font-size: 3rem;
   color: var(--color-pink);
+  @media screen and (min-width: 550px) {
+    font-size: 4rem;
+  }
+  @media screen and (min-width: 850px) {
+    font-size: 6rem;
+  }
 }
 
 .secondary-heading {
   margin: 3.5rem 0;
   color: var(--color-light-blue);
+  @media screen and (min-width: 380px) {
+    font-size: 1.8rem;
+  }
+  @media screen and (min-width: 550px) {
+    font-size: 2.7rem;
+  }
+  @media screen and (min-width: 850px) {
+    font-size: 3.5rem;
+  }
 }

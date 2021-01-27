@@ -37,6 +37,18 @@ h1 {
   font-size: 2.5rem;
 }
 
+@media screen and (min-width: 550px) {
+  h1 {
+    font-size: 3.2rem;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  h1 {
+    font-size: 4.2rem;
+  }
+}
+
 h2 {
   font-size: 1.5rem;
 }
@@ -45,13 +57,52 @@ p {
   font-family: var(--font-secondary);
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 .main-heading__name {
+  font-size: 3rem;
   color: var(--color-pink);
+}
+
+@media screen and (min-width: 550px) {
+  .main-heading__name {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .main-heading__name {
+    font-size: 6rem;
+  }
 }
 
 .secondary-heading {
   margin: 3.5rem 0;
   color: var(--color-light-blue);
+}
+
+@media screen and (min-width: 380px) {
+  .secondary-heading {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .secondary-heading {
+    font-size: 2.7rem;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .secondary-heading {
+    font-size: 3.5rem;
+  }
 }
 
 .header {
@@ -76,15 +127,45 @@ p {
   background-size: cover;
 }
 
+@media screen and (min-width: 550px) {
+  .header {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    text-align: left;
+    padding: 0 5.5rem;
+  }
+}
+
+@media screen and (min-width: 380px) {
+  .header {
+    padding: 0 10rem;
+  }
+}
+
 .header__social-icons {
   margin-top: 2.7rem;
 }
 
 .header__social-icon {
-  width: 2.7rem;
-  height: 2.7rem;
+  width: 3.2rem;
+  height: 3.2rem;
   margin: 0 1.3rem;
   fill: #c2b5b5;
+}
+
+@media screen and (min-width: 550px) {
+  .header__social-icon {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .header__social-icon {
+    width: 5rem;
+    height: 5rem;
+  }
 }
 
 .header__arrow-down {
@@ -132,6 +213,16 @@ p {
   60% {
     -webkit-transform: translateY(-15px);
             transform: translateY(-15px);
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .header__arrow-down {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    width: 5rem;
+    height: 5rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
