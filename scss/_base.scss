@@ -1,0 +1,27 @@
+:root {
+  // COLORS VARIABLES
+
+  --color-primary: #252934;
+  --color-secondary: #1b242f;
+  --color-gray: #616161;
+  --color-light-blue: #04c2c9;
+  --color-pink: #e31b6d;
+
+  // FONTS VARIABLES
+
+  --font-primary: 'Orbitron', sans-serif;
+  --font-secondary: 'Raleway', sans-serif;
+}
+
+html {
+  font-size: 62.5%; // 1 rem = 10 px
+}
+
+// GENERAL RESET
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

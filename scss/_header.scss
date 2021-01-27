@@ -1,0 +1,46 @@
+.header {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(black, 0.7)), url('../img/heroimage.jpg');
+  background-position: center;
+  background-size: cover;
+
+  &__social-icons {
+    margin-top: 2.7rem;
+  }
+
+  &__social-icon {
+    width: 2.7rem;
+    height: 2.7rem;
+    margin: 0 1.3rem;
+    fill: rgb(194, 181, 181);
+  }
+  &__arrow-down {
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    bottom: 3rem;
+    fill: rgb(194, 181, 181);
+    animation: bounce 3s infinite;
+
+    @keyframes bounce {
+      0%,
+      20%,
+      50%,
+      80%,
+      100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-25px);
+      }
+      60% {
+        transform: translateY(-15px);
+      }
+    }
+  }
+}
