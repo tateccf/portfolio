@@ -40,6 +40,7 @@ a {
 .main-heading__name {
   font-size: 3rem;
   color: var(--color-pink);
+
   @media screen and (min-width: 550px) {
     font-size: 4rem;
   }
