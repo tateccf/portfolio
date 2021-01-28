@@ -489,6 +489,119 @@ a {
   font-size: 1.9rem;
 }
 
+.contact {
+  padding: 3rem;
+  background-color: cadetblue;
+  background-color: var(--color-primary);
+}
+
+.contact__subheading {
+  text-align: center;
+  width: 100%;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 700;
+  padding: 2rem;
+}
+
+.contact__form {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact__form input,
+.contact__form textarea {
+  color: #fff;
+  margin-bottom: 0.3rem;
+  padding: 1.3rem;
+  width: 100%;
+  display: block;
+  border-radius: 0.3rem;
+  border: none;
+  background-color: var(--color-secondary);
+  outline: none;
+  max-width: 480px;
+}
+
+.contact__form textarea {
+  min-height: 14rem;
+}
+
+.contact__form button {
+  max-width: 480px;
+  margin-top: 2rem;
+  border: 0.1rem solid #fff;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: #fff;
+  display: block;
+  width: 100%;
+  padding: 1rem 2rem;
+  background-color: var(--color-secondary);
+}
+
+.contact__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 1200px;
+}
+
+@media screen and (min-width: 500px) {
+  .contact__icons {
+    margin: 0 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.contact__icon-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact__icon {
+  width: 8rem;
+  height: 8rem;
+  fill: #eee;
+}
+
+.contact__icon-label {
+  padding: 2rem 1rem;
+  font-size: 2rem;
+  font-family: var(--font-primary);
+  color: var(--color-light-blue);
+}
+
 .footer {
   height: 5rem;
   display: -webkit-box;
