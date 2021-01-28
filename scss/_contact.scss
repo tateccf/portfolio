@@ -74,6 +74,11 @@
     height: 8rem;
 
     fill: #eee;
+
+    @media screen and (min-width: 500px) {
+      width: 11rem;
+      height: 11rem;
+    }
   }
   &__icon-label {
     padding: 2rem 1rem;
