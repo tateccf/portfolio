@@ -4,6 +4,7 @@
   text-align: center;
   height: 8rem;
   background-color: var(--color-secondary);
+  z-index: 10;
 
   &__items {
     display: none;
@@ -30,8 +31,15 @@
   }
 
   &__link {
+    display: block;
     font-size: 2.5rem;
     color: var(--color-gray-light);
+    transition: all 0.3s;
+
+    &:hover {
+      transform: scale(1.2);
+      color: var(--color-light-blue);
+    }
   }
 }
 
@@ -39,9 +47,10 @@
   cursor: pointer;
   margin-left: auto;
   padding: 0 4.5rem;
-
+  position: absolute;
+  right: 0;
   .btn-line {
-    width: 3.5rem;
+    width: 4rem;
     height: 0.3rem;
     margin: 0 0 0.6rem 0;
     background: #fff;
@@ -49,4 +58,10 @@
   @media screen and (min-width: 750px) {
     display: none;
   }
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }

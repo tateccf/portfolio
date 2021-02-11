@@ -8,13 +8,21 @@
   width: 100%;
   background-color: var(--color-secondary);
   transform: translateX(-100%);
+  transition: all 0.3s;
 
   &__close-btn {
-    top: -1.1rem;
+    cursor: pointer;
+    top: 1rem;
     right: 2rem;
     position: absolute;
     font-size: 7rem;
     color: white;
+    transition: all 0.3s;
+
+    &:hover {
+      color: red;
+      transform: scale(1.1);
+    }
 
     @media screen and (min-width: 550px) {
       top: 0rem;
@@ -37,10 +45,20 @@
   &__link {
     font-family: var(--font-primary);
     font-size: 4rem;
+    letter-spacing: 0.8rem;
     color: var(--color-gray-light);
+
+    &:hover {
+      transform: scale(1.2);
+      color: var(--color-light-blue);
+    }
 
     &:active {
       color: var(--color-pink);
     }
   }
+}
+
+.show {
+  transform: translateX(0);
 }

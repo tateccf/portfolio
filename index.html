@@ -10,7 +10,7 @@
   <body>
     <!-- HEADER START -->
 
-    <header class="header">
+    <header class="header" id='home'>
       <h1 class="main-heading">
         Hi, I am <br />
         <span class="main-heading__name">Francisco Bajo</span>
@@ -38,19 +38,19 @@
       <div class="menu-sidebar__close-btn">&times;</div>
       <ul class="menu-sidebar__items">
         <li class="menu-sidebar__item">
-          <a href="" class="menu-sidebar__link">Home</a>
+          <a href="#home" class="menu-sidebar__link">Home</a>
         </li>
         <li class="menu-sidebar__item">
-          <a href="" class="menu-sidebar__link">About</a>
+          <a href="#about" class="menu-sidebar__link">About</a>
         </li>
         <li class="menu-sidebar__item">
-          <a href="" class="menu-sidebar__link">Skills</a>
+          <a href="#skills" class="menu-sidebar__link">Skills</a>
         </li>
         <li class="menu-sidebar__item">
-          <a href="" class="menu-sidebar__link">Portfolio</a>
+          <a href="#portfolio" class="menu-sidebar__link">Portfolio</a>
         </li>
         <li class="menu-sidebar__item">
-          <a href="" class="menu-sidebar__link">Contact</a>
+          <a href="#contact" class="menu-sidebar__link">Contact</a>
         </li>
       </ul>
     </aside>
@@ -61,19 +61,19 @@
     <nav class="main-nav">
       <ul class="main-nav__items">
         <li class="main-nav__item">
-          <a href="" class="main-nav__link">Home</a>
+          <a href="#home" class="main-nav__link">Home</a>
         </li>
         <li class="main-nav__item">
-          <a href="" class="main-nav__link">About</a>
+          <a href="#about" class="main-nav__link">About</a>
         </li>
         <li class="main-nav__item">
-          <a href="" class="main-nav__link">Skills</a>
+          <a href="#skills" class="main-nav__link">Skills</a>
         </li>
         <li class="main-nav__item">
-          <a href="" class="main-nav__link">Portfolio</a>
+          <a href="#portfolio" class="main-nav__link">Portfolio</a>
         </li>
         <li class="main-nav__item">
-          <a href="" class="main-nav__link">Contact</a>
+          <a href="#contact" class="main-nav__link">Contact</a>
         </li>
       </ul>
       <!-- MENU TOGGLER START -->
@@ -90,7 +90,7 @@
     <main class="main">
       <!-- ABOUT SECTION START -->
 
-      <section class="about">
+      <section class="about section--hidden" id="about">
         <h3 class="section-heading">ABOUT</h3>
         <div class="about__container">
           <img
@@ -128,7 +128,7 @@
 
       <!-- ABOUT SECTION END -->
 
-      <section class="skills">
+      <section class="skills" id="skills">
         <!-- SKILLS SECTION START -->
 
         <h3 class="section-heading">SKILLS</h3>
@@ -187,9 +187,33 @@
       </section>
       <!-- SKILLS SECTION END -->
       <!-- PORTFOLIO SECTION START -->
-      <section class="portfolio">
+      <section class="portfolio" id="portfolio">
         <h3 class="section-heading">PORTFOLIO</h3>
         <div class="portfolio__cards-container">
+          <div class="portfolio__card">
+            <div class="portfolio__card-title">Personal website</div>
+            <img src="./img/portfolio.jpg" alt="Personal webpage" class="portfolio__card-image">
+            <div class="portfolio__card-description"><p>My personal webpage built with HTML, CSS and Vanilla JavasCript</p></div>
+            <div class="portfolio__card-languages">
+              <span>HTML</span> <span>Sass</span> <span>JavaScript</span>
+            </div>
+            <div class="portfolio__card-links">
+              <a href="#">Live</a>
+              <a href="#">Code</a>
+            </div>
+          </div>
+          <div class="portfolio__card">
+            <div class="portfolio__card-title">SocialApp</div>
+            <img src="./img/socialapp.JPG" alt="Personal webpage" class="portfolio__card-image">
+            <div class="portfolio__card-description"><p>A simple social network where, after creating an account, you can write, edit and delete posts and follow other users.</p></div>
+            <div class="portfolio__card-languages">
+              <span>React</span> <span>BootStrap</span> <span>Firebase</span>
+            </div>
+            <div class="portfolio__card-links">
+              <a href="#">Live</a>
+              <a href="#">Code</a>
+            </div>
+          </div>
           <div class="portfolio__card">
             <div class="portfolio__card-title">SocialApp</div>
             <img src="./img/socialapp.JPG" alt="Personal webpage" class="portfolio__card-image">
@@ -206,9 +230,9 @@
       </section>
       <!-- PORTFOLIO SECTION END -->
       <!-- CONTACT SECTION START -->
-      <section class="contact">
+      <section class="contact" id="contact">
         <h3 class="section-heading">CONTACT</h3>
-        <p class ='contact__subheading'>Do you have any question? Don't hesitate to contact me :)</p>
+        <p class ='contact__subheading'>Do you want to hire me? Don't hesitate to contact me :)</p>
 
         <form action="https://formspree.io/f/xbjpwvgq"  method="POST" class="contact__form" autocomplete="off">
           
@@ -241,5 +265,7 @@
     </footer>
 
     <!-- FOOTER END -->
+
+    <script src="./main.js"></script>
   </body>
 </html>
