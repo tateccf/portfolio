@@ -85,12 +85,14 @@
         border-radius: 1.5rem;
         text-decoration: none;
         color: var(--color-primary);
+        transition: all 0.3s;
         &:hover {
+          background-color: var(--color-light-blue);
         }
       }
     }
     &:hover {
-      transform: scale(1.09);
+      transform: scale(1.02);
     }
   }
 }

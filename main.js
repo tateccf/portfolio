@@ -77,8 +77,6 @@
 (function () {
   const allSections = document.querySelectorAll('section');
 
-  console.log(allSections);
-
   const revealSection = function (entries, observer) {
     const [entry] = entries;
 

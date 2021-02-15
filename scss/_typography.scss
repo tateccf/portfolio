@@ -12,17 +12,17 @@ h6 {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3.2rem;
   @media screen and (min-width: 550px) {
-    font-size: 3.2rem;
+    font-size: 3.5rem;
   }
   @media screen and (min-width: 850px) {
-    font-size: 4.2rem;
+    font-size: 4.6rem;
   }
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 p {
@@ -38,7 +38,7 @@ a {
 }
 
 .main-heading__name {
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: var(--color-pink);
 
   @media screen and (min-width: 550px) {

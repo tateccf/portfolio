@@ -26,7 +26,7 @@
     align-content: center;
     justify-content: center;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
   }
 
@@ -38,18 +38,14 @@
     text-align: center;
     font-size: 2rem;
     margin-bottom: 2rem;
-    @media screen and (min-width: 650px) {
-      font-size: 3rem;
-    }
   }
   &__icon {
-    display: inline-block;
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 2.3rem;
+    height: 2.3rem;
 
     @media screen and (min-width: 650px) {
-      width: 3rem;
-      height: 3rem;
+      width: 4rem;
+      height: 4rem;
     }
   }
 

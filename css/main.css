@@ -46,23 +46,23 @@ h6 {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3.2rem;
 }
 
 @media screen and (min-width: 550px) {
   h1 {
-    font-size: 3.2rem;
+    font-size: 3.5rem;
   }
 }
 
 @media screen and (min-width: 850px) {
   h1 {
-    font-size: 4.2rem;
+    font-size: 4.6rem;
   }
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 p {
@@ -78,7 +78,7 @@ a {
 }
 
 .main-heading__name {
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: var(--color-pink);
 }
 
@@ -659,11 +659,17 @@ a {
   border-radius: 1.5rem;
   text-decoration: none;
   color: var(--color-primary);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.portfolio__card-links a:hover {
+  background-color: var(--color-light-blue);
 }
 
 .portfolio__card:hover {
-  -webkit-transform: scale(1.09);
-          transform: scale(1.09);
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
 }
 
 .about {
@@ -707,7 +713,7 @@ a {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -721,22 +727,15 @@ a {
   margin-bottom: 2rem;
 }
 
-@media screen and (min-width: 650px) {
-  .about__subheading {
-    font-size: 3rem;
-  }
-}
-
 .about__icon {
-  display: inline-block;
-  width: 3.5rem;
-  height: 3.5rem;
+  width: 2.3rem;
+  height: 2.3rem;
 }
 
 @media screen and (min-width: 650px) {
   .about__icon {
-    width: 3rem;
-    height: 3rem;
+    width: 4rem;
+    height: 4rem;
   }
 }
 
