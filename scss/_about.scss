@@ -75,3 +75,28 @@
     }
   }
 }
+
+.btn-resume {
+  margin-top: 2rem;
+  color: white;
+  display: block;
+  padding: 1rem 2rem;
+  margin: 0 auto;
+  border: none;
+  font-size: 2rem;
+  border-radius: 2rem;
+  background-color: var(--color-secondary);
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  a {
+    color: white;
+    &:hover {
+      color: var(--color-pink);
+    }
+  }
+  &:hover {
+    color: var(--color-pink);
+    transform: scale(1.02);
+  }
+}

@@ -779,6 +779,36 @@ a {
   }
 }
 
+.btn-resume {
+  margin-top: 2rem;
+  color: white;
+  display: block;
+  padding: 1rem 2rem;
+  margin: 0 auto;
+  border: none;
+  font-size: 2rem;
+  border-radius: 2rem;
+  background-color: var(--color-secondary);
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn-resume a {
+  color: white;
+}
+
+.btn-resume a:hover {
+  color: var(--color-pink);
+}
+
+.btn-resume:hover {
+  color: var(--color-pink);
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
 .contact {
   padding: 3rem;
   background-color: cadetblue;
